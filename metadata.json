@@ -1,0 +1,6 @@
+{
+  "name": "L'Étoile Cake Studio",
+  "description": "Artisanal couture celebration cakes, bespoke cake builder, and luxury patisserie confections hand-crafted with seasonal botanicals and French butter.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
