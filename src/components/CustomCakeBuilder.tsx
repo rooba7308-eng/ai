@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { CUSTOM_BUILDER_OPTIONS } from '../data/cakes';
 import { CartItem } from '../types';
 import { Sparkles, Check, CheckCircle2, ChevronRight, Info } from 'lucide-react';
+import heroCakeImg from '../assets/images/hero_artisan_celebration_cake_1791181882966.jpg';
 
 interface CustomCakeBuilderProps {
   onAddCustomToCart: (item: CartItem) => void;
@@ -52,7 +53,7 @@ export const CustomCakeBuilder: React.FC<CustomCakeBuilderProps> = ({
       size: selectedTier.servings,
       price: totalPrice,
       quantity: 1,
-      image: '/src/assets/images/hero_artisan_celebration_cake_1791181882966.jpg',
+      image: heroCakeImg,
       inscription: customMessage.trim() || undefined,
       customDetails: {
         tier: selectedTier.name,

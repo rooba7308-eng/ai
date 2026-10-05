@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { ArrowRight, Sparkles, Clock, ShieldCheck, Heart } from 'lucide-react';
+import heroCakeImg from '../assets/images/hero_artisan_celebration_cake_1791181882966.jpg';
 
 interface HeroProps {
   onExploreCakes: () => void;
@@ -82,7 +83,7 @@ export const Hero: React.FC<HeroProps> = ({
               <div className="relative aspect-[16/10] sm:aspect-[4/3] rounded-lg overflow-hidden border border-stone-200/80 shadow-md bg-stone-100">
                 {!imageError ? (
                   <img
-                    src="/src/assets/images/hero_artisan_celebration_cake_1791181882966.jpg"
+                    src={heroCakeImg}
                     alt="Artisanal multi-tiered luxury celebration cake with gold leaf and fresh garden florals"
                     className="w-full h-full object-cover transform hover:scale-[1.02] transition-transform duration-700 ease-out"
                     referrerPolicy="no-referrer"

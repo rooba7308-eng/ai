@@ -1,4 +1,9 @@
 import { CakeItem } from '../types';
+import heroImg from '../assets/images/hero_artisan_celebration_cake_1791181882966.jpg';
+import pistachioImg from '../assets/images/product_pistachio_rose_cake_1791181899508.jpg';
+import chocolateImg from '../assets/images/product_valrhona_chocolate_cake_1791181912528.jpg';
+import lavenderImg from '../assets/images/product_earl_grey_lavender_cake_1791181924746.jpg';
+import berryImg from '../assets/images/product_berry_botanical_sponge_1791181941511.jpg';
 
 export const CAKE_ITEMS: CakeItem[] = [
   {
@@ -19,7 +24,7 @@ export const CAKE_ITEMS: CakeItem[] = [
     leadTimeHours: 24,
     allergens: ['Wheat / Gluten', 'Dairy', 'Eggs', 'Tree Nuts (Pistachio, Almond)'],
     storageServingGuide: 'Bring to room temperature 60–90 minutes before serving. Buttercream achieves optimum silkiness at 20°C (68°F). Store leftovers chilled for up to 4 days.',
-    image: '/src/assets/images/product_pistachio_rose_cake_1791181899508.jpg',
+    image: pistachioImg,
     isSignature: true,
   },
   {
@@ -40,7 +45,7 @@ export const CAKE_ITEMS: CakeItem[] = [
     leadTimeHours: 24,
     allergens: ['Wheat / Gluten', 'Dairy', 'Eggs', 'Soy Lecithin'],
     storageServingGuide: 'Best enjoyed slightly warmed to room temperature. Pair with a bold espresso or vintage port. Keeps fresh under glass dome for 3 days.',
-    image: '/src/assets/images/product_valrhona_chocolate_cake_1791181912528.jpg',
+    image: chocolateImg,
     isPopular: true,
   },
   {
@@ -61,7 +66,7 @@ export const CAKE_ITEMS: CakeItem[] = [
     leadTimeHours: 24,
     allergens: ['Wheat / Gluten', 'Dairy', 'Eggs'],
     storageServingGuide: 'Serve chilled to ambient. Delicate tea botanicals unfold best with a hot Darjeeling or sparkling white wine.',
-    image: '/src/assets/images/product_earl_grey_lavender_cake_1791181924746.jpg',
+    image: lavenderImg,
     isSignature: true,
   },
   {
@@ -82,7 +87,7 @@ export const CAKE_ITEMS: CakeItem[] = [
     leadTimeHours: 24,
     allergens: ['Wheat / Gluten', 'Dairy', 'Eggs'],
     storageServingGuide: 'Keep refrigerated until 45 minutes prior to ceremony or cake cutting. Garnish should remain cool for peak freshness.',
-    image: '/src/assets/images/product_berry_botanical_sponge_1791181941511.jpg',
+    image: berryImg,
     isPopular: true,
   },
   {
@@ -102,7 +107,7 @@ export const CAKE_ITEMS: CakeItem[] = [
     leadTimeHours: 48,
     allergens: ['Wheat / Gluten', 'Dairy', 'Eggs'],
     storageServingGuide: 'Requires level transport or our white-glove refrigerated delivery courier. Serve at 19°C–21°C.',
-    image: '/src/assets/images/hero_artisan_celebration_cake_1791181882966.jpg',
+    image: heroImg,
     isSignature: true,
   },
   {
@@ -122,7 +127,7 @@ export const CAKE_ITEMS: CakeItem[] = [
     leadTimeHours: 24,
     allergens: ['Tree Nuts (Almond)', 'Eggs', 'Dairy'],
     storageServingGuide: 'Exceptionally moist and stays tender for up to 5 days at cool room temperature. Delicious alongside morning espresso.',
-    image: '/src/assets/images/product_earl_grey_lavender_cake_1791181924746.jpg',
+    image: lavenderImg,
   },
   {
     id: 'cafe-noisette-praline',
@@ -142,7 +147,7 @@ export const CAKE_ITEMS: CakeItem[] = [
     leadTimeHours: 24,
     allergens: ['Wheat / Gluten', 'Dairy', 'Eggs', 'Tree Nuts (Hazelnut)'],
     storageServingGuide: 'Best at room temperature. The crispy praline crunch retains peak texture when enjoyed within 48 hours.',
-    image: '/src/assets/images/product_valrhona_chocolate_cake_1791181912528.jpg',
+    image: chocolateImg,
   },
   {
     id: 'petite-fraises-chantilly',
@@ -161,7 +166,7 @@ export const CAKE_ITEMS: CakeItem[] = [
     leadTimeHours: 24,
     allergens: ['Wheat / Gluten', 'Dairy', 'Eggs'],
     storageServingGuide: 'Keep strictly chilled until 20 minutes before serving. Consume within 48 hours for ultimate cloud-like softness.',
-    image: '/src/assets/images/product_berry_botanical_sponge_1791181941511.jpg',
+    image: berryImg,
     isPopular: true,
   }
 ];
